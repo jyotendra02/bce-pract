@@ -20,23 +20,6 @@ class Riya
     }
 };
 
-/*Riya::Riya(int x , int y)
-{
-    a=x;
-    b=y;
-}
-
-Riya::~Riya()
-{
-    cout<<"\nObject is destroyed";
-}
-
-void Riya::show()
-{
-    cout<<"Value of a = "<<a<<"\nValue of b = "<<b;
-}*/
-
-
 int main()
 {
     Riya obj(18,19);
