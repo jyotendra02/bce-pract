@@ -5,19 +5,19 @@ class Riya
 {
      int a,b;
      public: 
-     Riya(int x , int y)  // This is Constructor 
+     Riya(int x , int y)   // This is Constructor 
      {
        a=x;
        b=y;
      }   
     ~Riya()                // This is Destructor
-    {
-    cout<<"\nObject is destroyed";
-    }
-    void show()
-    {
+     {
+      cout<<"\nObject is destroyed";
+     }
+      void show()
+     {
        cout<<"Value of a = "<<a<<"\nValue of b = "<<b;  
-    }
+     }
 };
 
 int main()
